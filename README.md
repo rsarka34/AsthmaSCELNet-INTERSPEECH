@@ -1,5 +1,6 @@
 # AsthmaSCELNet
 AsthmaSCELNet: A Lightweight Supervised Contrastive Embedding Learning Framework For Asthma Classification Using Lung Sounds
+
 Authors: Arka Roy, Udit Satija, Department of Electrical Engineering 
 
 Accepted in INTERSPEECH 2023, Dublin, Ireland.
