@@ -6,7 +6,7 @@ Authors: Arka Roy, Udit Satija, Department of Electrical Engineering, Indian Ins
 Published in Proc. INTERSPEECH 2023, Dublin, Ireland.
 
 Dataset link: https://data.mendeley.com/datasets/jwyy9np4gv/3 \
-Paper link: https://www.isca-speech.org/archive/pdfs/interspeech_2023/roy23_interspeech.pdf \
+Paper link: https://www.isca-speech.org/archive/pdfs/interspeech_2023/roy23_interspeech.pdf 
 
 Cite as:\
 @inproceedings{roy23_interspeech,\
