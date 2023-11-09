@@ -15,3 +15,5 @@ Cite as:\
   pages={5431--5435},\
   doi={10.21437/Interspeech.2023-428}\
 }
+![image](https://github.com/rsarka34/AsthmaSCELNet/assets/89518952/1fef1052-c748-4371-8008-b9718ad39093)
+
