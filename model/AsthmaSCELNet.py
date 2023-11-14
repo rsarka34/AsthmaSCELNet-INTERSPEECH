@@ -78,7 +78,7 @@ def create_batch_train(batch_size):
     x_positives_train=np.array(x_positives_train)
     x_negatives_train=np.array(x_negatives_train)
     return [x_anchors_train, x_positives_train, x_negatives_train]
-import tensorflow as tf
+import tensorflow
 from keras.layers import *
 from keras.models import Model, Sequential
 from keras.layers import Input, Lambda
@@ -86,53 +86,50 @@ from keras.regularizers import l2
 from keras.regularizers import l2
 from keras import backend as K
 from keras.models import Model
-from keras.layers.core import Lambda
 import keras
 
-def mobile_inception(dim):
-    print("\nTRAINING ON AsthmaSCELNet:-")
+def AsthmaSCELNet(dim):
+    print("\nAsthmaSCELNet:-")
 
 
-    def block(x, filters, reps):
-        for _ in range(reps):
-
-            t1 = Conv2D(filters[0], kernel_size = (1,1))(x)
+    def block(x_in, filters):
+            t1 = Conv2D(filters[0], kernel_size = (1,1))(x_in)
             t1 = LeakyReLU()(t1)
 
-            t2 = DepthwiseConv2D(kernel_size = (3,3), strides = 1, padding = 'same')(x)
+            t2 = DepthwiseConv2D(kernel_size = (3,3), strides = 1, padding = 'same')(x_in)
             t2 = LeakyReLU()(t2)
             t2 = Conv2D(filters[1], kernel_size = (1,1))(t2)
             t2 = LeakyReLU()(t2)
 
-            t3 = DepthwiseConv2D(kernel_size = (5,5), strides = 1, padding = 'same')(x)
+            t3 = DepthwiseConv2D(kernel_size = (5,5), strides = 1, padding = 'same')(x_in)
             t3 = LeakyReLU()(t3)
             t3 = Conv2D(filters[2], kernel_size = (1,1))(t3)
             t3 = LeakyReLU()(t3)
 
-            t4 = MaxPool2D(pool_size = (3,3), strides = 1, padding = 'same')(x)
+            t4 = MaxPool2D(pool_size = (3,3), strides = 1, padding = 'same')(x_in)
             t4 = Conv2D(filters[3], kernel_size = (1,1))(t4)
             t4 = LeakyReLU()(t4)
 
             x_cat = Concatenate()([t1, t2, t3, t4])
-            x_out = tf.keras.layers.Add()([x_cat, x])
-        return x_out
-
+            x_out = Add()([x_cat, x_in])
+            return x_out
 
     input = Input(shape = dim)
 
     k = 16
 
-    x = Conv2D(filters = k, kernel_size = (3,3), strides = 2, padding = 'same')(input)
+    x = Conv2D(filters = 32, kernel_size = (3,3), strides = 2, padding = 'same')(input)
     x = LeakyReLU()(x)
     x = MaxPool2D(pool_size = (3,3), strides = 2, padding = 'same')(x)
 
     x = DepthwiseConv2D(kernel_size = (3,3), strides = 1, padding = 'same')(x)
     x = LeakyReLU()(x)
-    x = Conv2D(filters = 2*k, kernel_size = (1,1))(x)
+    x = Conv2D(filters = 4*k, kernel_size = (1,1))(x)
     x = LeakyReLU()(x)
     x = MaxPool2D(pool_size = (2,2), strides = 2)(x)
 
-    x = block(x, [k, k, k, k], reps = 2)
+    x = block(x, [k, k, k, k])
+    x = block(x, [k, k, k, k])
     x = MaxPool2D(pool_size = (2,2), strides = 2)(x)
 
     x = GlobalAveragePooling2D()(x)
@@ -141,7 +138,14 @@ def mobile_inception(dim):
     model = Model(inputs = input, outputs = output)
 
     return model
+
 alpha = 0.2
+def embedding_model():
+    dim = (224,224,3)
+    model = AsthmaSCELNet(dim)
+    return model
+base_model = embedding_model()
+base_model.summary()
 
 def triplet_loss(y_true, y_pred):
     anchor, positive, negative = y_pred[:,:emb_size], y_pred[:,emb_size:2*emb_size], y_pred[:,2*emb_size:]
