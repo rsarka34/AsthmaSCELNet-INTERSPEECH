@@ -8,7 +8,7 @@ Asthma is one of the most prevalent respiratory disorders, which can be identifi
 ![281669068-1fef1052-c748-4371-8008-b9718ad39093](https://github.com/rsarka34/AsthmaSCELNet/assets/89518952/99f37130-00fb-4bcc-9df6-92e8e239c6f5)
 
 Dataset link: https://data.mendeley.com/datasets/jwyy9np4gv/3 \
-Paper link: https://www.isca-speech.org/archive/pdfs/interspeech_2023/roy23_interspeech.pdf 
+Paper link: [https://www.isca-speech.org/archive/pdfs/interspeech_2023/roy23_interspeech.pdf](https://www.isca-archive.org/interspeech_2023/roy23_interspeech.html) 
 
 # Cite as:
 @inproceedings{roy23_interspeech,\
