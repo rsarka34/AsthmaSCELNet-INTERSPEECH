@@ -10,7 +10,8 @@
 Asthma is one of the most prevalent respiratory disorders, which can be identified by different modalities such as speech, wheezing of lung sounds (LSs), spirometric measures, etc. In this paper, we propose AsthmaSCELNet, a lightweight supervised contrastive embedding learning framework, to classify asthmatic LSs by providing adequate classification margin across the embeddings of healthy and asthma LS, in contrast to vanilla supervised learning. Our proposed framework consists of three steps: pre-processing, melspectrogram extraction, and classification. The AsthmaSCELNet consists of two stages: embedding learning using a lightweight embedding extraction backbone module that extracts compact embedding from the melspectrogram, and classification by the learnt embeddings using multi-layer perceptrons. The proposed framework achieves an accuracy, sensitivity, and specificity of 98.54%, 98.27%, and 98.73% respectively, that outperforms existing methods based on LSs and other modalities.
 
 # Methodology 
-![block_diagram (1)](https://github.com/rsarka34/AsthmaSCELNet/assets/89518952/8b6e47bc-8a4c-45ff-8fc4-05bddaa893ba)
+![20](https://github.com/user-attachments/assets/f35131c5-553d-4534-a7ff-7ca4651b643b)
+
 
 # Dataset
 **Dataset Link: KAUH** 
