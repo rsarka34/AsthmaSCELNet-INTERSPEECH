@@ -22,8 +22,17 @@ Asthma is one of the most prevalent respiratory disorders, which can be identifi
 ![image](https://github.com/user-attachments/assets/47f1325e-4459-4278-a0f6-76b548cec49c)
 
 # Train AsthmaSCELNet
-To train ASthmaSCELNet run
-`AsthmaSCELNet-INTERSPEECH/model/AsthmaSCELNet.py`
+To train ASthmaSCELNet 
+
+`run AsthmaSCELNet-INTERSPEECH/model/AsthmaSCELNet.py`
+
+Followings are the requirements
+`Tensorflow==2.15.1
+Numpy==2.0.0
+Pandas==1.5.0
+mat73==0.59
+Seaborn==0.11.1
+Sklearn==1.6.0`
 
 # Results
 ![image](https://github.com/user-attachments/assets/5266069c-e2d2-4bd4-a080-7abc56cfe5ae)
