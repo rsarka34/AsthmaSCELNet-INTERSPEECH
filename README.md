@@ -13,9 +13,10 @@ Asthma is one of the most prevalent respiratory disorders, which can be identifi
 ![block_diagram (1)](https://github.com/rsarka34/AsthmaSCELNet/assets/89518952/8b6e47bc-8a4c-45ff-8fc4-05bddaa893ba)
 
 # Dataset
-![image](https://github.com/user-attachments/assets/47f1325e-4459-4278-a0f6-76b548cec49c)
 **Dataset Link: KAUH** 
 [![Paper Link](https://img.shields.io/badge/KAUH%20Data-Mendeley%20Data-blue)](https://data.mendeley.com/datasets/jwyy9np4gv/3)
+
+![image](https://github.com/user-attachments/assets/47f1325e-4459-4278-a0f6-76b548cec49c)
 
 # Cite as:
 A. Roy, U. Satija,"AsthmaSCELNet: A Lightweight Supervised Contrastive Embedding Learning Framework for Asthma Classification Using Lung Sounds", in *Proc. INTERSPEECH 2023*, 5431-5435, doi: 10.21437/Interspeech.2023-428.
