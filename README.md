@@ -28,12 +28,13 @@ To train ASthmaSCELNet
 
 Followings are the requirements
 
-`Tensorflow==2.15.1,
-Numpy==2.0.0,
-Pandas==1.5.0,
-mat73==0.59,
-Seaborn==0.11.1,
-Sklearn==1.6.0`
+```bash
+pip install Tensorflow==2.15.1
+pip install Numpy==2.0.0
+pip install Pandas==1.5.0
+pip install mat73==0.59
+pip install Seaborn==0.11.1
+pip install Sklearn==1.6.0
 
 # Results
 ![image](https://github.com/user-attachments/assets/5266069c-e2d2-4bd4-a080-7abc56cfe5ae)
