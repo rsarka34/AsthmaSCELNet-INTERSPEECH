@@ -38,7 +38,7 @@ A. Roy, U. Satija,"AsthmaSCELNet: A Lightweight Supervised Contrastive Embedding
   year=2023,
   booktitle={Proc. INTERSPEECH 2023},
   pages={5431--5435},
-  doi={10.21437/Interspeech.2023-428}}
+  doi={10.21437/Interspeech.2023-428}}```
 
 # Train AsthmaSCELNet
 To train ASthmaSCELNet 
