@@ -28,16 +28,11 @@ To train ASthmaSCELNet
 
 Followings are the requirements
 
-`Tensorflow==2.15.1
-
-Numpy==2.0.0
-
-Pandas==1.5.0
-
-mat73==0.59
-
-Seaborn==0.11.1
-
+`Tensorflow==2.15.1,
+Numpy==2.0.0,
+Pandas==1.5.0,
+mat73==0.59,
+Seaborn==0.11.1,
 Sklearn==1.6.0`
 
 # Results
@@ -51,12 +46,12 @@ Sklearn==1.6.0`
 A. Roy, U. Satija,"AsthmaSCELNet: A Lightweight Supervised Contrastive Embedding Learning Framework for Asthma Classification Using Lung Sounds", in *Proc. INTERSPEECH 2023*, 5431-5435, doi: 10.21437/Interspeech.2023-428.
 
 ```bibtex
-@inproceedings{roy23_interspeech,\
-  author={Arka Roy and Udit Satija},\
-  title={{AsthmaSCELNet: A Lightweight Supervised Contrastive Embedding Learning Framework for Asthma Classification Using Lung Sounds}},\
-  year=2023,\
-  booktitle={Proc. INTERSPEECH 2023},\
-  pages={5431--5435},\
+@inproceedings{roy23_interspeech,
+  author={Arka Roy and Udit Satija},
+  title={{AsthmaSCELNet: A Lightweight Supervised Contrastive Embedding Learning Framework for Asthma Classification Using Lung Sounds}},
+  year=2023,
+  booktitle={Proc. INTERSPEECH 2023},
+  pages={5431--5435},
   doi={10.21437/Interspeech.2023-428}}
 
 
