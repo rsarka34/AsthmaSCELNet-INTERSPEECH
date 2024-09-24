@@ -20,6 +20,9 @@ Asthma is one of the most prevalent respiratory disorders, which can be identifi
 # Results
 ![image](https://github.com/user-attachments/assets/5266069c-e2d2-4bd4-a080-7abc56cfe5ae)
 
+# Performance 
+![image](https://github.com/user-attachments/assets/6aafc958-aee8-42eb-a848-b6b174c6b1b6)
+
 
 # Cite as:
 A. Roy, U. Satija,"AsthmaSCELNet: A Lightweight Supervised Contrastive Embedding Learning Framework for Asthma Classification Using Lung Sounds", in *Proc. INTERSPEECH 2023*, 5431-5435, doi: 10.21437/Interspeech.2023-428.
