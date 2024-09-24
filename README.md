@@ -21,21 +21,6 @@ Asthma is one of the most prevalent respiratory disorders, which can be identifi
 [![Paper Link](https://img.shields.io/badge/KAUH%20Data-Mendeley%20Data-yellow)](https://data.mendeley.com/datasets/jwyy9np4gv/3)
 ![image](https://github.com/user-attachments/assets/47f1325e-4459-4278-a0f6-76b548cec49c)
 
-# Train AsthmaSCELNet
-To train ASthmaSCELNet 
-
-`run AsthmaSCELNet-INTERSPEECH/model/AsthmaSCELNet.py`
-
-Followings are the requirements
-
-```bash
-pip install Tensorflow==2.15.1
-pip install Numpy==2.0.0
-pip install Pandas==1.5.0
-pip install mat73==0.59
-pip install Seaborn==0.11.1
-pip install Sklearn==1.6.0
-
 # Results
 ![image](https://github.com/user-attachments/assets/5266069c-e2d2-4bd4-a080-7abc56cfe5ae)
 
@@ -55,5 +40,20 @@ A. Roy, U. Satija,"AsthmaSCELNet: A Lightweight Supervised Contrastive Embedding
   pages={5431--5435},
   doi={10.21437/Interspeech.2023-428}}
 
+# Train AsthmaSCELNet
+To train ASthmaSCELNet 
 
+`run AsthmaSCELNet-INTERSPEECH/model/AsthmaSCELNet.py`
+
+# Requirements
+
+This package requires the following:
+
+```bash
+pip install Tensorflow==2.15.1
+pip install Numpy==2.0.0
+pip install Pandas==1.5.0
+pip install mat73==0.59
+pip install Seaborn==0.11.1
+pip install Sklearn==1.6.0
 
