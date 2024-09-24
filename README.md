@@ -29,7 +29,7 @@ Asthma is one of the most prevalent respiratory disorders, which can be identifi
 
 
 # Cite as:
-A. Roy, U. Satija,"AsthmaSCELNet: A Lightweight Supervised Contrastive Embedding Learning Framework for Asthma Classification Using Lung Sounds", in *Proc. INTERSPEECH 2023*, 5431-5435, doi: 10.21437/Interspeech.2023-428.
+A. Roy, U. Satija, "AsthmaSCELNet: A Lightweight Supervised Contrastive Embedding Learning Framework for Asthma Classification Using Lung Sounds", in *Proc. INTERSPEECH 2023*, 5431-5435, doi: 10.21437/Interspeech.2023-428.
 
 ```bibtex
 @inproceedings{roy23_interspeech,
@@ -38,22 +38,7 @@ A. Roy, U. Satija,"AsthmaSCELNet: A Lightweight Supervised Contrastive Embedding
   year=2023,
   booktitle={Proc. INTERSPEECH 2023},
   pages={5431--5435},
-  doi={10.21437/Interspeech.2023-428}}```
+  doi={10.21437/Interspeech.2023-428}
+}
 
-# Train AsthmaSCELNet
-To train ASthmaSCELNet 
-
-`run AsthmaSCELNet-INTERSPEECH/model/AsthmaSCELNet.py`
-
-# Requirements
-
-This package requires the following:
-
-```bash
-pip install Tensorflow==2.15.1
-pip install Numpy==2.0.0
-pip install Pandas==1.5.0
-pip install mat73==0.59
-pip install Seaborn==0.11.1
-pip install Sklearn==1.6.0
-
+python AsthmaSCELNet-INTERSPEECH/model/AsthmaSCELNet.py
