@@ -27,11 +27,17 @@ To train ASthmaSCELNet
 `run AsthmaSCELNet-INTERSPEECH/model/AsthmaSCELNet.py`
 
 Followings are the requirements
+
 `Tensorflow==2.15.1
+
 Numpy==2.0.0
+
 Pandas==1.5.0
+
 mat73==0.59
+
 Seaborn==0.11.1
+
 Sklearn==1.6.0`
 
 # Results
