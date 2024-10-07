@@ -6,7 +6,7 @@
 
 [![Paper Link](https://img.shields.io/badge/Paper%20Link-ISCA%20Archive-blue)](https://www.isca-archive.org/interspeech_2023/roy23_interspeech.html#)
 [![Paper Link](https://img.shields.io/badge/Paper%20Link-Research%20Gate-green)](https://www.researchgate.net/publication/371043441_AsthmaSCELNet_A_Lightweight_Supervised_Contrastive_Embedding_Learning_Framework_For_Asthma_Classification_Using_Lung_Sounds)
-[![YouTube Link](https://img.shields.io/badge/You%20Tube-IML%20Reading-red)](https://www.youtube.com/watch?v=RhKNMkBnm5U&t=176s)
+[![YouTube Link](https://img.shields.io/badge/YouTube-IML%20Reading-red)](https://www.youtube.com/watch?v=RhKNMkBnm5U&t=176s)
 
 
 # Abstract
