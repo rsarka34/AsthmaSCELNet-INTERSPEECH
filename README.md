@@ -46,7 +46,16 @@ A. Pal, A. Roy and U. Satija, "A Unified Joint Contrastive Triplet Loss with Tem
   pages={5431--5435},
   doi={10.21437/Interspeech.2023-428}
 }
-
+@INPROCEEDINGS{10889389,
+  author={Pal, Ayushi and Roy, Arka and Satija, Udit},
+  booktitle={ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
+  title={A Unified Joint Contrastive Triplet Loss with Temporal and Frequency Signal Fusion for Diagnosing Heart Murmurs}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-5},
+  keywords={Heart;Support vector machines;Time-frequency analysis;Accuracy;Databases;Contrastive learning;Signal processing;Nearest neighbor methods;Speech processing;Phonocardiography;Cardiovascular disorder (CVD);heart murmurs (HM);phonocardiogram (PCG);supervised contrastive learning based triplet network},
+  doi={10.1109/ICASSP49660.2025.10889389}}
 
 
 
