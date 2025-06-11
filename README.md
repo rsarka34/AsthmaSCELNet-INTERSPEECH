@@ -31,6 +31,11 @@ Asthma is one of the most prevalent respiratory disorders, which can be identifi
 # Cite as:
 A. Roy, U. Satija, "AsthmaSCELNet: A Lightweight Supervised Contrastive Embedding Learning Framework for Asthma Classification Using Lung Sounds", in *Proc. INTERSPEECH 2023*, 5431-5435, doi: 10.21437/Interspeech.2023-428.
 
+**Also cite the related works**
+A. Pal, A. Roy and U. Satija, "A Unified Joint Contrastive Triplet Loss with Temporal and Frequency Signal Fusion for Diagnosing Heart Murmurs," ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Hyderabad, India, 2025, pp. 1-5, doi: 10.1109/ICASSP49660.2025.10889389.
+
+
+
 ```bibtex
 @inproceedings{roy23_interspeech,
   author={Arka Roy and Udit Satija},
@@ -41,6 +46,6 @@ A. Roy, U. Satija, "AsthmaSCELNet: A Lightweight Supervised Contrastive Embeddin
   doi={10.21437/Interspeech.2023-428}
 }
 
-# Other related papers
+
 
 
