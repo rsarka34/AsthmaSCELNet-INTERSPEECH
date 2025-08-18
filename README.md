@@ -8,7 +8,7 @@
 [![Paper Link](https://img.shields.io/badge/Paper%20Link-Research%20Gate-green)](https://www.researchgate.net/publication/371043441_AsthmaSCELNet_A_Lightweight_Supervised_Contrastive_Embedding_Learning_Framework_For_Asthma_Classification_Using_Lung_Sounds)
 [![YouTube Link](https://img.shields.io/badge/YouTube-IML%20Reading-red)](https://www.youtube.com/watch?v=RhKNMkBnm5U&t=176s)
 
-<img width="2500" height="351" alt="Banner-Wide-2" src="https://github.com/user-attachments/assets/fbd447b8-0597-4be0-ab18-89f56c43af97" />
+<img width="2500" height="551" alt="Banner-Wide-2" src="https://github.com/user-attachments/assets/fbd447b8-0597-4be0-ab18-89f56c43af97" />
 
 # Abstract
 <p align="justify">
